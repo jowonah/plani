@@ -1,0 +1,73 @@
+
+/*반응형*/
+@media (max-width:1920px){
+	#header .layout #gnb_wrap .logo { left:4rem; }
+	#footer .layout .inner .select_box { right:0; }
+    #header .all_menu {righT:4rem;}
+}
+
+@media (max-width:1280px){
+	.layout { padding:0 20px;}
+	#header .layout #gnb_wrap #gnb { max-width: 100%; }
+    #header .layout #gnb_wrap #gnb>ul>li {padding:0 3.5rem}
+    #header .layout #gnb_wrap .logo { left:0; }
+	#footer .layout .inner .select_box { right:20px; }
+    #header .all_menu {righT:0;}
+}
+
+@media (max-width:1024px){
+	#header .all_menu { display: block; }
+    #header .layout #gnb_wrap #gnb>ul>li {padding:0 3rem}
+
+    .mobile_menu {margin-left: 62rem;}
+}
+
+@media (max-width:768px) {
+    br {display: none;}
+    body {line-height: 1.35;}
+    #header .layout #gnb_wrap {padding: 0;}
+    #header .layout #gnb_wrap #gnb { display: none !important; }
+    	
+
+	.mobile_wrap .layout{ padding:4.8rem 5rem; }
+	.mobile_wrap .mobile_menu { height: auto;min-height: auto; margin-bottom:9rem; }
+	.mobile_wrap .mobile_menu { margin-left:0; }
+	.mobile_wrap .mobile_cont { position: relative; left:auto; top:auto; }
+	.mobile_wrap .mobile_cont .mobile_tit { display: none; }
+
+    .mobile_menu>ul>li>a { width:50%; }
+    .mobile_menu>ul>li>.sub { width:50%;left:50%;padding-left:4%; }
+    .mobile_menu>ul>li>.sub>ul>li>a>span {font-size: 2rem;}
+
+    .mobile_wrap .mobile_cont .mobile_faq a { width:48%;margin-left:4%; }
+
+    /* 전체메뉴 모바일 금지 */
+    
+    .mobile_wrap { height: 100%;}
+    .mobile_wrap .mobile_cont { left:auto;transition: none; }
+    .mobile_wrap .mobile_menu { right:0;transition: none; }
+
+    #footer .layout .inner p { font-size: 2rem; }
+    .select_box>button {font-size: 2rem;}
+    .select_box ul li a {font-size: 2rem;}
+
+    .visual_wrap .inner .layout .intro_txt p br.mbnone {display: none;}
+}
+
+@media (max-width:640px){
+	#footer .layout .inner { padding:0;text-align: center; }
+	#footer .layout .inner .f_logo { position: relative; left:auto; top: auto; display: inline-block; margin-bottom:2rem; }
+	#footer .layout .inner .select_box { position: relative; top:auto; right: auto; transform: none;margin:0 auto;width:20rem; margin-top:2rem; }
+	.sub_visual { padding: 11rem 0; }
+	.snb { display: none; }
+	.page_topBtn { bottom:6rem;right:2rem; }
+
+}
+
+@media (max-width:420px) {
+    #header {height: 66px;}
+
+    .mobile_wrap {top:66px; width:100%;}
+    
+    #footer .layout .inner .select_box,.select_box>button,.select_box ul { width: 100%;}
+}

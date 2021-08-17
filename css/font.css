@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* 노토산스 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* karla-300 - latin */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+
+/*Quentin*/
+@font-face{
+    font-family:'Quentin';
+    font-style:normal;
+    font-weight:500;
+    src:url(/font/Quentin.woff) format('woff')
+}
+
+/* Roboto */
+@font-face{
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:300;
+    src:url(/font/Roboto-Light.woff) format('woff')
+}
+@font-face{
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:400;
+    src:url(/font/Roboto-Regular.woff) format('woff')
+}
+@font-face{
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:500;
+    src:url(/font/Roboto-Medium.woff) format('woff')
+}
+@font-face{
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:600;
+    src:url(/font/Roboto-Bold.woff) format('woff')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*mx-ksw*/
+
+*{box-sizing:border-box}
+*::after, *::before { box-sizing: border-box; }
+a{transition:background .1s}
+
+/*reset*/
+html { font-size: 10px;margin: 0;padding: 0;-webkit-box-sizing: border-box;box-sizing: border-box;-webkit-text-size-adjust: none;-moz-text-size-adjust: none;-ms-text-size-adjust: none;height:100%; overflow: hidden;overflow-y: auto; }
+body { font-size: 1.6rem; font-family: "Noto Sans KR";font-weight: 300;line-height: 1.5;margin: 0;padding: 0;height: auto;overflow: hidden; letter-spacing: -0.06rem; color:#111;}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{font-weight:400; font-family: "Noto Sans KR", 'Karla', sans-serif; margin:0;padding:0;word-break: keep-all; }
+ul,ol,li,dl,dt,dd {margin: 0;padding: 0;list-style: none;}
+h1,h2,h3,h4,h5,h6{font-weight:600;}
+
+label{display:inline-block;cursor:pointer}
+input,textarea,select,button,table{ font-family: "Noto Sans KR";}
+img,fieldset{max-width:100%;height:auto;border:0;vertical-align:top}
+th{font-weight:normal}
+li{list-style:none}
+i,em,address{font-style:normal}
+a{text-decoration:none}
+a:link,a:visited{color:inherit;}
+a:hover,a:focus{color:#000}
+article,aside,dialog,footer,header,section,footer,nav,figure,main{display:block;margin:0;padding:0}
+button, input[type="submit"]{cursor:pointer}
+button{padding:0;line-height:100%;border-width:0;background-color:transparent}
+legend{overflow:hidden;position:fixed;left:-1px;top:-1px;width:1px;height:1px;font-size:0;line-height:0}
+caption{height:0;width:1px;overflow:hidden;clip:rect(1px, 1px, 1px, 1px)}
+button{background-color:transparent}
+input[type="text"], input[type="password"]{height:4rem;border:1px solid #d2d2d2;text-indent:5px;background:#fff;color:#555;vertical-align:middle}
