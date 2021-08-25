@@ -302,7 +302,12 @@ main .container .right_content .visual_box {
     transform: translateY(-110%);
     width: 110rem; 
 }
-main .container .right_content .visual .vs_txt { font-size:18rem;font-family: "Quentin";text-align: center;transform: rotate(-5deg);color:#04A6E1; }
+main .container .right_content .visual .vs_txt { 
+    font-size:18rem;
+    font-family: "Quentin";
+    text-align: center;
+    transform: rotate(-5deg);color:#04A6E1; 
+}
 main .container .right_content .visual .slick-list{ overflow: unset; }
 main .container .right_content .visual div { position: relative; }
 main .container .right_content .visual .slick-slide .vs_txt  { right: -100%; position: relative; transition: all .6s; opacity: 0;}
