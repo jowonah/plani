@@ -8,12 +8,12 @@
 
 
 /*Quentin*/
-@font-face{
+/* @font-face{
     font-family:'Quentin';
     font-style:normal;
     font-weight:500;
     src:url(/font/Quentin.woff) format('woff')
-}
+} */
 
 /* Roboto */
 @font-face{
@@ -39,6 +39,16 @@
     font-style:normal;
     font-weight:600;
     src:url(/font/Roboto-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Quentin';
+    src:url('Quentin.ttf.woff') format('woff'),
+        url('Quentin.ttf.svg#Quentin') format('svg'),
+        url('Quentin.ttf.eot'),
+        url('Quentin.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
 
 
