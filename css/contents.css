@@ -171,18 +171,18 @@ header .menu .sub_menu .all_menu .icon .line{
 } 
 
 .experience_slider_wrap .slider_btn .prev {
-    background-image: url("/img/arrow_left_before.png");
+    background-image: url(/img/arrow_left_before.svg);
 }
 
 .experience_slider_wrap .slider_btn .next {
-    background-image: url("/img/arrow_right_before.png");
+    background-image: url(/img/arrow_right_before.svg);
 }
 .experience_slider_wrap .slider_btn .prev:hover {
-    background-image: url("/img/arrow_left_after.png");
+    background-image: url(/img/arrow_left_after.svg);
 }
 
 .experience_slider_wrap .slider_btn .next:hover {
-    background-image: url("/img/arrow_right_after.png");
+    background-image: url(/img/arrow_right_after.svg);
 }
 
 .experience_slider_wrap .slider_btn button img { display:none; width: 7.6rem; } 
