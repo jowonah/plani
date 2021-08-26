@@ -349,26 +349,101 @@ header .menu .sub_menu .all_menu .icon .line{
 
 
 
-/* active */
+
 .toggle_list > li.active .title { color: #fff; } 
 .toggle_list > li.active .title::before { opacity: 1; } 
-.toggle_list > li.active .title:after { transform: translateY(-50%) rotate(180deg); color: #fff; } 
-
-.experience_tab::after { display: block; content: ""; clear: both; } 
+.toggle_list > li.active .title:after { 
+    transform: translateY(-50%) rotate(180deg); 
+    color: #fff; 
+} 
+.experience_tab::after {
+     display: block; 
+     content: ""; 
+     clear: both; 
+    } 
 .experience_tab > ul { float: left; } 
-.experience_tab > ul::after { display: block; content: ""; clear: both; } 
-.experience_tab > ul > li { display: inline-block; vertical-align: middle; } 
-.experience_tab > ul > li > a { padding: 1rem 2rem; display: block; text-align: center; font-size: 2rem; border-radius: 2rem; font-family:'Karla'; font-weight: 300; } 
-.experience_tab > ul > li.active > a { color: #fff; font-weight: 600; background: #111; box-shadow: 0px .5rem 1.3rem rgba(17,17,17,0.3); } 
+.experience_tab > ul::after { 
+    display: block; 
+    content: ""; 
+    clear: both; 
+} 
+.experience_tab > ul > li { 
+    display: inline-block; 
+    vertical-align: middle; 
+} 
+.experience_tab > ul > li > a { 
+    padding: 1rem 2rem; 
+    display: block; 
+    text-align: center; 
+    font-size: 2rem; 
+    border-radius: 2rem; 
+    font-family:'Karla'; 
+    font-weight: 300; 
+} 
+.experience_tab > ul > li.active > a { 
+    color: #fff; 
+    font-weight: 600;
+    background: #111; 
+    box-shadow: 0px .5rem 1.3rem rgba(17,17,17,0.3); 
+} 
 .experience_tab .search_input input { width: 36rem; max-width: 100%; border:none;} 
 .experience_search {float: right;}
-.experience_search .search_input { float: none; display: inline-block; vertical-align: bottom; }
-.experience_search .select_year {display: inline-block; vertical-align: bottom; padding-left: 3rem; position: relative; width: 15rem;}
-.experience_search .select_year .selected {display:block; height: 4.6rem; width: 100%; padding: 0 2.2rem; border-radius: 2.3rem; border: 2px solid #111;}
-.experience_search .select_year .selected span {display: block; position: relative; text-align: left; padding-right: 3rem; font-size: 1.6rem; color: #111; line-height: calc(4.6rem - 4px);}
-.experience_search .select_year .selected span::after {display: block; content: "\eb38"; font-family: 'xeicon'; position: absolute; top: 50%; right: 0; transform: translateY(-50%); color: #111; line-height: 1;}
-.experience_search .select_year .select_list {position: absolute; top: calc(100% + 1rem); left:3rem; width:calc(100% - 3rem); text-align: center; border: 2px solid #111; border-radius: 2rem;z-index: -1; background: #fff; opacity: 0; visibility: hidden;}
-.experience_search .select_year .select_list ul {padding: 1.6rem 1rem;  height: 20.2rem; overflow:auto;}
+.experience_search .search_input { 
+    float: none;
+    display: inline-block;
+    vertical-align: bottom; 
+}
+.experience_search .select_year {
+    display: inline-block; 
+    vertical-align: bottom; 
+    padding-left: 3rem; 
+    position: relative; 
+    width: 15rem;
+}
+.experience_search .select_year .selected {
+    display:block; 
+    height: 4.6rem; width: 100%; 
+    padding: 0 2.2rem; 
+    border-radius: 2.3rem; 
+    border: 2px solid #111;
+}
+.experience_search .select_year .selected span {
+    display: block; 
+    position: relative; 
+    text-align: left; 
+    padding-right: 3rem; 
+    font-size: 1.6rem; 
+    color: #111; 
+    line-height: calc(4.6rem - 4px);
+}
+.experience_search .select_year .selected span::after {
+    display: block; 
+    content: "\eb38"; 
+    font-family: 'xeicon'; 
+    position: absolute; 
+    top: 50%; right: 0; 
+    transform: translateY(-50%); 
+    color: #111; 
+    line-height: 1;
+}
+.experience_search .select_year .select_list {
+    position: absolute; 
+    top: calc(100% + 1rem); 
+    left:3rem; 
+    width:calc(100% - 3rem); 
+    text-align: center; 
+    border: 2px solid #111; 
+    border-radius: 2rem;
+    z-index: -1; 
+    background: #fff; 
+    opacity: 0; 
+    visibility: hidden;
+}
+.experience_search .select_year .select_list ul {
+    padding: 1.6rem 1rem;  
+    height: 20.2rem; 
+    overflow:auto;
+}
 .experience_search .select_year .select_list ul li {margin-bottom: .6rem;}
 .experience_search .select_year .select_list ul li:last-of-type {margin-bottom: 0;}
 .experience_search .select_year .select_list ul li a {display: block;}
@@ -377,15 +452,64 @@ header .menu .sub_menu .all_menu .icon .line{
 .experience_search .select_list .mCSB_dragger_bar {background-color: #111 !important;}
 
 
-/* toggle layout */
+
 .toggle_list > li { position: relative; } 
-.toggle_list > li:first-of-type::after { display: block; content: ""; width: 500%; height: 1px; background: #eee; position: absolute; top: 0; left: 50%; transform: translateX(-50%)} 
-.toggle_list > li::before { display: block; content: ""; width: 500%; height: 1px; background: #eee; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); } 
-.toggle_list .title { display: block; position: relative; padding: 3.9rem 0; color: #111; } 
+.toggle_list > li:first-of-type::after { 
+    display: block; 
+    content: ""; 
+    width: 500%; height: 1px; 
+    background: #eee; 
+    position: absolute; 
+    top: 0; left: 50%; 
+    transform: translateX(-50%)
+} 
+.toggle_list > li::before { 
+    display: block; 
+    content: ""; 
+    width: 500%; height: 1px; 
+    background: #eee; 
+    position: absolute; 
+    bottom: 0; left: 50%; 
+    transform: translateX(-50%); 
+} 
+.toggle_list .title { 
+    display: block;
+    position: relative; 
+    padding: 3.9rem 0; 
+    color: #111; 
+} 
 .toggle_list .title.has_link, .toggle_list .title.can_open {padding-right: 9rem;}
-.toggle_list .title::before { display: block; content: ""; width: 500%; height: 100%; background: #111; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: -1; opacity: 0; } 
-.toggle_list .title.can_open:after { display: block; content: "\e943"; font-family: 'xeicon'; position: absolute; top: 50%; right: 0; transform: translateY(-50%); font-size: 3rem; color: #333; transition: .3s; } 
-.toggle_list .title.has_link:after {display: block; content:""; width: 3rem; height: 3rem; background: url(/img/has_link.svg)no-repeat center center / cover; position: absolute; top: 50%; right: 0; transform: translateY(-50%);}
+.toggle_list .title::before { 
+    display: block; 
+    content: ""; 
+    width: 500%; height: 100%; 
+    background: #111; 
+    position: absolute; 
+    top: 0; left: 50%; 
+    transform: translateX(-50%); 
+    z-index: -1; 
+    opacity: 0; 
+} 
+.toggle_list .title.can_open:after { 
+    display: block; 
+    content: "\e943"; 
+    font-family: 'xeicon'; 
+    position: absolute; 
+    top: 50%; right: 0; 
+    transform: translateY(-50%); 
+    font-size: 3rem; 
+    color: #333; 
+    transition: .3s; 
+} 
+.toggle_list .title.has_link:after {
+    display: block; 
+    content:""; 
+    width: 3rem; height: 3rem; 
+    background: url(/img/has_link.svg)no-repeat center center / cover; 
+    position: absolute; 
+    top: 50%; right: 0; 
+    transform: translateY(-50%);
+}
 .toggle_list .toggle_contents { display: none; } 
 .toggle_list .toggle_contents > div { padding: 7rem 0; } 
 
@@ -393,11 +517,22 @@ header .menu .sub_menu .all_menu .icon .line{
 
 
 .experience_tab_contents .experience_contents {padding-top: 6rem;}
-.experience_tab_contents  .experience_contents .empty {font-size: 18px; color: #999; text-align:center; display: block; padding: 10rem 0; margin-top: -6rem;}
 .experience_tab_contents  .experience_contents > li { display: none; padding-top: 6rem;} 
 .experience_tab_contents  .experience_contents > li.active { display: block; } 
-#experience_tab_contents .toggle_list .title .category { display: inline-block; width: 18rem; vertical-align: middle; margin-right: -4px; } 
-#experience_tab_contents .toggle_list .title .category span { display: inline-block; position: relative; font-family:'Karla'; font-size: 1.8rem; font-weight: 700; letter-spacing: 0; } 
+#experience_tab_contents .toggle_list .title .category { 
+    display: inline-block; 
+    width: 18rem; 
+    vertical-align: middle; 
+    margin-right: -4px; 
+} 
+#experience_tab_contents .toggle_list .title .category span { 
+    display: inline-block; 
+    position: relative; 
+    font-family:'Karla'; 
+    font-size: 1.8rem; 
+    font-weight: 700; 
+    letter-spacing: 0; 
+} 
 #experience_tab_contents .toggle_list .title .category span::after { 
     display: block; 
     content: ""; 
