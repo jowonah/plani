@@ -186,7 +186,13 @@ main .container .left_content .circle_button .slick-arrow.on.up_btn { top:-5rem;
 main .container .left_content .circle_button .slick-arrow.on.down_btn { bottom:-5rem; }
 
 
-main .container .left_content .circle_button .button_text button { display: block;position: absolute; top:0;left:0;width:100%;height: 100%;border-radius: 50%; }
+main .container .left_content .circle_button .button_text button { 
+    display: block;
+    position: absolute; 
+    top:0; left:0;
+    width:100%; height: 100%;
+    border-radius: 50%; 
+}
 main .container .left_content .circle_button .button_text .play { display: none; }
 main .container .left_content .circle_button .button_text .stop { display: none; }
 main .container .left_content .circle_button .button_text .play.on { display: block; }
